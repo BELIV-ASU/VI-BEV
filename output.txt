@@ -1,0 +1,26 @@
+epoch-4
+Object Class        	AP    	ATE   	ASE   	AOE   	AVE   	AAE   
+car                 	0.698 	0.273 	0.227 	0.477 	191929.087	0.254 
+truck               	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+bus                 	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+trailer             	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+construction_vehicle	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+pedestrian          	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+motorcycle          	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+bicycle             	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+traffic_cone        	0.000 	1.000 	1.000 	nan   	nan   	nan   
+barrier             	0.000 	1.000 	1.000 	1.000 	nan   	nan
+
+
+Per-class results:
+Object Class        	AP    	ATE   	ASE   	AOE   	AVE   	AAE   
+car                 	0.715 	0.245 	0.205 	0.453 	197305.510	0.290 
+truck               	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+bus                 	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+trailer             	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+construction_vehicle	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+pedestrian          	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+motorcycle          	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+bicycle             	0.000 	1.000 	1.000 	1.000 	1.000 	1.000 
+traffic_cone        	0.000 	1.000 	1.000 	nan   	nan   	nan   
+barrier             	0.000 	1.000 	1.000 	1.000 	nan   	nan
