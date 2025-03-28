@@ -87,9 +87,8 @@ class BEVFusion(Base3DFusionModel):
 
         if fuser is not None:
             # initialize the transformer here
-            self.input_cross_transformer = TransformerEncoder(num_layers=4, input_dim=1024,dim_feedforward=1024*3, num_heads=8,cross_label=True,bev_cross_label=False)
-            #self.input_cross_transformer_2 = TransformerEncoder(num_layers=1, input_dim=256,dim_feedforward=256, num_heads=1,cross_label=True,bev_cross_label=False)
-            self.output_cross_transformer = TransformerEncoder(num_layers=4, input_dim=256,dim_feedforward=256*4,num_heads=8,cross_label=True,bev_cross_label=True)
+            self.input_cross_transformer = TransformerEncoder(num_layers=3, input_dim=1024,dim_feedforward=1024*3, num_heads=8,cross_label=True,bev_cross_label=False)
+            self.output_cross_transformer = TransformerEncoder(num_layers=3, input_dim=256,dim_feedforward=256*4,num_heads=8,cross_label=True,bev_cross_label=True)
             self.fuser = build_fuser(fuser)
         else:
             self.fuser = None
